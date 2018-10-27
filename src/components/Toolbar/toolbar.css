@@ -1,0 +1,40 @@
+
+.Navigation{
+    width: 100%;
+    height: 49px;
+    padding-bottom: 4px;
+}
+
+.Logo > img {
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.Navigation > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6d502f;
+}
+
+.Item > li{
+    float: right;
+    color:white;
+    padding-right: 20px;
+}
+
+.Item > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 4px 6px; */
+    text-decoration: none;
+}
+
+.Item > li > a:hover {
+    background-color: #333;
+}

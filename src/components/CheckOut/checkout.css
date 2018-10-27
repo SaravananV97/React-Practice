@@ -1,0 +1,20 @@
+
+
+.CheckOut{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.CheckOut > button{
+    transition: transform 0.3s;
+    height: 40px;
+    width:70px;
+    font-size: 1em;
+    color: white;
+    background: #ff9216;
+}
+
+.CheckOut > button:hover{
+    width:80px;
+    transform: scale(1.1);
+}

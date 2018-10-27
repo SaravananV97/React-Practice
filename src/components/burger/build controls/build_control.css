@@ -1,0 +1,49 @@
+.BuildControl{
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.Label{
+    text-align: center;
+    font-size: 2em; 
+}
+
+span{
+    text-align: right;
+}
+
+.Minus{
+
+    padding-left: 2em;
+
+}
+
+.Plus{
+    text-align: right;
+    padding-right: 2em;
+}
+
+.Plus > button:hover{
+    background-color: green;
+}
+
+.Plus > button,.Minus > button{
+    background-color: #f78204;
+    color: white;
+    font-size: 2em;
+    border: 1px solid #f78204;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 22.5px;
+
+}
+
+.Minus > button:hover {
+    background-color: red;
+}
+
+.BuildControl > div{
+    flex:1;
+}
+

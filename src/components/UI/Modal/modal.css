@@ -1,0 +1,39 @@
+.Modal{
+    position: fixed;
+    text-align: center;
+    z-index: 500;
+    color: white;
+    background-color: #c9713a;
+    box-shadow: 1px 1px 1px black;
+    border: 1px solid #ccc;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    animation: slide 0.5s 1;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    /* background: white;
+    transform: translateY(-100vh); */
+}
+li{
+    text-align: left;
+    font-size: 30px;
+}
+@keyframes slide{
+    0%{
+        top:0%;
+    }
+    100%{
+        top: 30%;
+    }
+}
+
+@media(min-width:600px){
+    width: 500px;
+    left:calc(50% - 250px);
+}
+
+.Modal>*{
+    font-family: 'Open Sans', sans-serif;
+
+}
